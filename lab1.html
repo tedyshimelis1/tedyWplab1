@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en"> <!--root element of an html document and encapsulates all other elements-->
+<head>           <!--it contains metadata about the document-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  <!--specifies the title of the webpage-->
+</head>            
+<body>         <!--it contains the content of webpage-->
+   <h1>heading1</h1>      <!--is used to write highest heading i.e heading1-->
+   <h2>heading2</h2>
+   <h3>heading4</h3>
+   <h5>heading5</h5>
+   <h6>heading6</h6>      <!--is used to write lowest heading i.e heading6-->
+   <p>Iceland is a Nordic island country located in the North Atlantic Ocean.    <!--it is used to define paragraphs of text on a webpage i.e paragraph-->
+       It is known for its stunning natural landscapes, including geysers, hot springs, waterfalls, glaciers, and volcanic terrain.</p>      
+<ol>   <!--ordered list is used to display items in numbered sequence-->
+   <li>home</li>      <!--1.home-->
+   <li>service</li>   <!--2.service-->
+   <li>contact</li>   <!--3.contact-->
+</ol>    
+<ul>              <!--unordered list is used to display items with bullet items--> 
+    <li>home</li>     <!--.home-->
+   <li>service</li>   <!--.service-->
+   <li>contact</li>   <!--.contact-->
+</ul>    
+<li></li>       <!--specifies information in clear-->
+<em></em> <!--used to denote emphasized to text. it is displayed in italic-->
+<strong></strong>  <!--used to denote important text,displayed in bold-->
+<b></b>        <!--is used to bold text-->
+<i></i>      <!--used to write text in italic form-->
+<u></u>   <!--used to underline text-->
+<sup></sup>     <!--used to write superscript or to write as a power-->
+<sub></sub>       <!--used to write subscript-->
+<del></del>          <!--used to deleted text-->
+<ins></ins>          <!--used to insert underlined text-->
+<p><b>Iceland</b> is a Nordic <strong>island country</strong> located in the <em> North Atlantic Ocean</em>. 
+   It is <i>known for</i>  its <ins>stunning</ins>  natural <u>landscapes</u>, including geysers, 
+   hot springs, waterfalls(H <sub>2</sub>O ), glaciers, and <del>volcanic</del>  terrain.</p>
+<a href="https://www.w3shools.com">click me</a>  <!--allow users to navigate between webpages-->
+<img src="pictures/web image1.jpg" width="120px" height="120px" alt="car store">        <!--used to insert images to webpages-->
+<table></table>       <!--used to create table-->
+<tr></tr>              <!--used to create table rows-->
+<th></th>     <!--used to create table headers-->
+<td></td>        <!--used to create table data cells-->
+<table border="1">
+   <th>Name</th>
+   <th>id</th>
+   <th>dep</th>
+   <tr>
+      <td>Tedy</td>
+      <td>3231/14</td>
+      <td>CS</td>
+   </tr>
+   <tr>
+     <td>John</td>
+     <td>4535/15</td>
+     <td>IT</td>
+   </tr>
+</table><br><br>
+<button>login</button> <br><br>    <!--used to create button-->
+<form action=""></form>              <!--used to create a form to user to input data that can be submitted to server-->
+<form>
+   <label for="fname">Name:</label><br>
+   <input type="text" id="fname" name="fname"><br>   <!-- Text displays a single-line text input field-->
+   <label for="lname">Department:</label><br>
+   <input type="text" id="lname" name="lname">
+ </form>
+<form action="#" method="post">
+   <label for="password">Password:</label><br>  <!---->
+   <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+</form>
+<form>
+   <label for="subscribe">Subscribe to Newsletter:</label><br>
+   <input type="checkbox" id="subscribe" name="subscribe" value="yes">  <!--Displays a checkbox (for selecting zero or more of many choices)-->
+   <label for="subscribe">Yes, I want to subscribe</label><br><br>
+</form>      
+<form>
+   <label for="gender">Select your gender:</label><br>
+   <input type="radio" id="male" name="gender" value="male">    <!--Displays a radio button (for selecting one of many choices)-->
+   <label for="male">Male</label><br>
+   <input type="radio" id="female" name="gender" value="female">
+   <label for="female">Female</label><br><br>
+</form>
+<form>
+   <label for="quantity">Quantity:</label><br>
+   <input type="number" id="quantity" name="quantity" min="1" max="10"><br><br>   <!---->
+</form>
+<form>
+   <label for="email">Email:</label><br>
+   <input type="email" id="email" name="email" placeholder="Email Address"><br><br>   <!---->
+</form>
+<form>
+   <label for="web">Website url:</label><br>
+   <input type="url" id="web" name="url" placeholder="enter your url"><br><br>     <!---->
+</form>       
+<form>
+   <label for="date"> Date:</label><br>
+   <input type="date"><br><br>     <!---->
+</form>
+<form>
+   <label for="import">file:</label>
+   <input type="file"> <br><br>    <!---->
+</form>
+<form>
+   <label for="submit"></label>
+   <input type="submit"><br><br>          <!--Displays a submit button (for submitting the form)-->
+</form>
+<h4>video</h4>
+<video  controls width="300px" height="300px" >
+   <source   src="videos/People VS. Cartoons Ep. 4.mp4" >
+</video><br><br>
+<h4>Audio</h4>
+<audio controls  muted autoplay>
+   <source src="Audio/sunrise.mp3.m4a"><br><br>
+</audio><br><br>
+<h3>This is an example of canvas</h3>
+<canvas id="canva1" width="200" height="100" style="border:1px solid #000000;">
+   <script>
+  var d=document.getElementById("canva1");
+  var dtx=d.getContext("2d");
+  dtx.beginPath();
+dtx.arc(100,50,40,3,1.999*Math.PI);
+dtx.stroke();
+   </script>
+</canvas><br><br>
+<h3>This is an example of svg</h3>
+<svg width="100" height="100">
+   <circle cx="90" cy="50" r="40"
+   stroke="black" stroke-width="4" fill="green" />
+ </svg><br><br>
+<article> <!--Defines independent, self-contained content-->
+<aside>	<!--Defines content aside from the page content-->
+<details>	<!--Defines additional details that the user can view or hide-->
+<figcaption>	<!--Defines a caption for a <figure> element-->
+<figure>	<!--Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.-->
+<footer>	<!--Defines a footer for a document or section-->
+<header>	<!--Specifies a header for a document or section-->
+<main>	<!--Specifies the main content of a document-->
+<mark>	<!--Defines marked/highlighted text-->
+   <p>Iceland is a <mark>Nordic</mark> island country located in the North Atlantic Ocean.</p>
+<nav>	<!--Defines navigation links-->
+<section>	<!--Defines a section in a document-->
+<summary>	<!--Defines a visible heading for a <details> element-->
+<time>	<!--Defines a date/time-->
+</body>
+</html>
