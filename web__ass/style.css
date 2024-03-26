@@ -1,0 +1,280 @@
+body{
+    background: linear-gradient(to right bottom,#f5e5b8,#f9cbdb,#ade0f9,#d7c0da,#d6d8c9);
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.top__boxs{
+    display: flex;
+    gap: 15px;
+    margin-right:  30px;
+}
+.upload__box{
+    width: 75%;
+    height: 280px;
+    background-color: rgba(240, 240, 240,0.2);
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.left__box{
+    display: flex;
+    gap: 15px;
+}
+.select__file{
+   width: 55%;
+   height: 230px;
+   background-color: white;
+   border-radius: 10px;
+   
+}
+.download__file{
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.right__box{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.check__boxs{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(240, 240, 240,0.2);
+    border-radius: 10px;
+    padding-right: 10px;
+}
+.radio__buttons{
+    width: 100%;
+    height: 143px;
+    background-color: rgba(240, 240, 240,0.2);
+    border-radius: 10px;
+    padding-right: 10px;
+}
+.bottom__boxs{
+    display: flex;
+    gap: 10px;
+    margin-right:  30px;
+}
+
+.cards{
+    width: 25%;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgba(240, 240, 240,0.2);
+}
+.boxs{
+    display: flex;
+    justify-content: space-evenly;
+}
+#file{
+    display: none;
+}
+.upload__file{
+    height: 30px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    margin-left: 45%;
+    border-color: blue;
+}
+.success{
+    margin-left: 50%;
+    font-size: 20px;
+    width: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.two__buttons{
+    text-align: center;
+}
+
+.unchecked__checkbox{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.radio__btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+.unchecked__radio{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.checked__radio{
+    display: flex;
+    flex-direction: column;  
+}
+
+.search__1{
+    display: flex;
+    gap: 30px;
+}
+
+.search__text{
+    padding-left: 20px;
+    gap: 40px;
+}
+
+.search__placeholder{
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.search1__placeholder{
+    width: 120px;
+    height: 20px;
+    color: white;
+}
+.search2__placeholder{
+    width: 120px;
+    height: 20px;
+    
+}
+.search3__placeholder{
+    width: 120px;
+    height: 20px; 
+}
+.search4__placeholder{
+    width: 120px;
+    height: 20px;
+}
+
+.drop__down{
+    display: flex;    
+}
+
+.dropdown__text{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.dropdown__placeholder{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.switch__slider{
+    display: flex;
+    gap: 80px;
+}
+
+.switch__div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 10px;
+}
+.switch{
+
+}
+
+.textinput__holder{
+    display: flex;
+    gap: 10px;
+}
+
+.text__holder{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input__holder{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.drop2:focus{
+    border: 2px solid blue;
+}
+
+.drop3:hover{
+    background-color: lightblue;
+}
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: #2196F3;
+}
+
+
+/*/////////////////////////////////////////////////////*/
+.switch__a {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+  .switch__a input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .switch1 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+  }
+
+  .switch1:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+
+  input:checked + .switch1 {
+    background-color: #2196F3;
+  }
+
+  input:focus + .switch1 {
+    box-shadow: 0 0 1px #2196F3;
+  }
+
+  input:checked + .switch1:before {
+    transform: translateX(26px);
+  }

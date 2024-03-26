@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title__text" style="text-align: center;">
+            <h2>Web UI/UX Elements</h2>
+            <p><b style="letter-spacing: 5px;">VECTORS</b></p>
+        </div>
+        <div class="top__boxs">
+            <div class="upload__box">
+                <h3>Upload box</h3>
+                <div class="left__box">
+                    <div class="select__file">
+                        <button class="upload__file">
+                            <input id="file" type="file">
+                            <label for="file">+ select file</label>
+                        </button>
+                        <hr>
+                        <span style="padding-left: 50%; font-size: 25px; height: 30px;">&#128190</span>
+                        <h5 style="text-align: center;">Drop or drag files here</h5>
+                        <p style="text-align: center;">&#10003 Only<b>.jpg </b> images are allowed <br>&#10003
+                            <b>200</b> files must <br> &#10003 Each files cannot exceed <b>2MB</b></b>
+                        </p>
+                    </div>
+                    <div class="download__file">
+                        <span class="success"
+                            style=" background-color: rgb(12, 217, 12); color: white; border-radius: 15px;">&#9989</span>
+                        <h5 style="text-align: center;">Files downloaded successfully</h5>
+                        <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adpisicing <br>elit. set diam nonum ermed tempor</p>
+                        <div class="two__buttons" style="gap: 20px;">
+                            <button style="background-color: transparent;">Button</button>
+                            <button style="background-color: blue; border-color: blue; color: white;">Button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right__box">
+                <div class="check__boxs">
+                    <h3 style="padding-left: 10px;">Checkbox</h3>
+                    <div class="boxs">
+                        <div class="unchecked__checkbox">
+                            <form action="fill file">
+                            <input type="checkbox" id="unchecked__default" name="unchecked__default">
+                            <label for="unchecked__default">Default</label> <br>
+                            <input type="checkbox" id="unchecked__hover" name="unchecked__hover">
+                            <label for="unchecked__hover">Hover</label> <br>
+                            <input type="checkbox" id="unchecked__disabled" name="unchecked__disabled" disabled>
+                            <label for="unchecked__disabled">Disabled</label>
+                        </form>
+                        </div>
+                        <div class="checked">
+                            <form action="fill file">
+                                <input type="checkbox" id="checked__default" name="checked__default" checked>
+                                <label for="checked__default">Default</label> <br>
+                                <input type="checkbox" id="checked__hover" name="checked__hover" checked>
+                                <label for="checked__hover">Hover</label> <br>
+                                <input type="checkbox" id="checked__disabled" name="checked__disabled" checked disabled>
+                                <label for="checked__disabled">Disabled</label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="radio__buttons">
+                    <h3 style="padding-left: 10px;">Radio Buttons</h3>
+                    <div class="radio__btns">
+                        <div class="unchecked__radio">
+                            <form action="choose">
+                                <input type="radio" id="radio__btn1" name="radio__btn1">
+                                <label for="radio__btn1">Default</label><br>
+                                <input type="radio" id="radio__btn2" name="radio__btn2">
+                                <label for="radio__btn2">Hover</label> <br>
+                                <input type="radio" id="radio__btn3" name="radio__btn3" disabled>
+                                <label for="radio__btn3">Disabled</label>
+                            </form>
+                        </div>
+                        <div class="checked__radio">
+                            <form action="choose">
+                                <input type="radio" id="radio__btn4" name="radio__btn4" checked>
+                                <label for="radio__btn4">Default</label><br>
+                                <input type="radio" id="radio__btn5" name="radio__btn5"  checked>
+                                <label for="radio__btn5">Hover</label> <br>
+                                <input type="radio" id="radio__btn6" name="radio__btn6" checked disabled>
+                                <label for="radio__btn6">Disabled</label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom__boxs">
+            <div class="search__box cards">
+                <h3 style="padding-left: 10px;">Search</h3>
+               <form action="search">
+                <div class="search__1">
+                    <div class="search__text">
+                        <p>Default</p> <br>
+                        <p>Focus</p> <br>
+                        <p>Hover</p> <br>
+                        <p>Disabled</p>
+                    </div>
+                    <div class="search__placeholder">
+                        <label for="search" class="search1"><input class="search1__placeholder" type="text" placeholder="&#x1F50D placeholder"></label>
+                        <p style="margin-top: -15px; font-size: 10px; width: 100px;">Discriptive text input</p>
+                        <label for="search" class="search2"><input class="search2__placeholder" type="text" placeholder="&#x1F50D placeholder"></label>
+                        <p style="margin-top: -15px; font-size: 10px; width: 100px;">Discriptive text input</p>
+                        <label for="search" class="search3"><input class="search3__placeholder" type="text" placeholder="&#x1F50D placeholder"></label>
+                        <p style="margin-top: -15px; font-size: 10px; width: 100px;">Discriptive text input</p>
+                        <label for="search" class="search4"><input class="search4__placeholder" type="text" placeholder="&#x1F50D placeholder" disabled></label>
+                        <p style="margin-top: -15px; font-size: 10px; width: 100px;">Discriptive text input</p>
+                    </div>
+                </div>
+               </form>
+            </div>
+            <div class="dropdown__box cards">
+                <h3 style="padding-left: 10px;">DropDown</h3>
+                <div class="drop__down">
+                    <div class="dropdown__text">
+                        <p>Default</p>
+                        <p>Focus</p>
+                        <p>Hover</p>
+                        <p>Disabled</p>
+                    </div>
+                    <div class="dropdown__placeholder">
+                        <div class="drop1">
+                            <select class="drop1" style="width: 200px; height: 25px;">
+                                <option value="0">select</option>
+                            </select>
+                        </div>
+                        <div class="drop2">
+                            <select class="drop2" style="width: 200px; height: 25px;">
+                                <option value="0">select</option>
+                            </select>
+                        </div>
+                        <div class="drop3">
+                            <select class="drop3" style="width: 200px; height: 25px;">
+                                <option value="0">select</option>
+                            </select>
+                        </div>
+                        <div class="drop4">
+                            <select class="drop4" style="width: 200px; height: 25px;">
+                                <option value="0" disabled>select</option>
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="textfield__box cards">
+                <h3 style="padding-left: 10px;">Text Field</h3>
+                <div class="textinput__holder">
+                    <div class="text__holder">
+                        <p>Default</p>
+                        <p>Focus</p>
+                        <p>Hover</p>
+                        <p>Disabled</p>
+                    </div>
+                    <div class="input__holder">
+                        <label for=""> <input type="text" id="default__id" placeholder="placeholder"></label>
+                        <p style="margin-top: -15px; font-size: 10px; width: 100px;">Discriptive text input</p>
+                        <label for=""> <input type="text" id="focus__id" placeholder="placeholder"></label>
+                        <p style="margin-top: -15px; font-size: 10px; width: 100px;">Discriptive text input</p>
+                        <label for=""> <input type="text" id="hover__id" placeholder="placeholder"></label>
+                        <p style="margin-top: -15px; font-size: 10px; width: 100px;">Discriptive text input</p>
+                        <label for=""> <input type="text" id="disabled__id" placeholder="placeholder" disabled></label>
+                        <p style="margin-top: -15px; font-size: 10px; width: 100px;">Discriptive text input</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__box cards">
+                <h3 style="padding-left: 10px;">Slider & Switch</h3>
+                <div class="switch__slider">
+                    <div class="switch">
+                        <h5 style="padding-left: 10px; margin-top: -15px;">switch</h5>
+                        <div class="switch__div" style="margin-top: -15px;">
+                            <label class="switch__a">
+                                <input type="checkbox" checked>
+                                <span class="switch1 round1"></span>
+                              </label>                            
+                              <label class="switch__a">
+                                <input type="checkbox" disabled>
+                                <span class="switch1 round2"></span>
+                              </label> <br>
+                             
+                              <label class="switch__a">
+                                <input type="checkbox" checked>
+                                <span class="switch1 round3" style="color: white; padding-left: 4px; padding-top: 4px;">ON</span>
+                              </label>                   
+                              <label class="switch__a">
+                                <input type="checkbox" disabled>
+                                <span class="switch1 round4"></span>
+                            </label> <br>
+                            
+                            <label class="switch__a">
+                                <input type="checkbox" checked>
+                                <span class="switch1 round5" style="color: white; padding-left: 7px; padding-top: 4px;">&#10004</span>
+                              </label>                   
+                              <label class="switch__a">
+                                <input type="checkbox" disabled>
+                                <span class="switch1 round6" style="color: white; padding-left: 7px; padding-top: 4px;">&#10004</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="slider1">
+                        <h5 style="margin-top: -15px;">slider</h5>
+                    <div class="slider" style="margin-top: -10px;">
+                        <input type="range" min="1" max="100" value="50" >
+                        <input type="range" min="1" max="100" value="20" >
+                        <input type="range" min="10" max="100" value="70" >
+                        <input type="range" min="1" max="100" value="25" >
+                        <p style="margin-top: -10px;">progress bar</p>
+                        <div class="progress" style="margin-top: -15px;">
+                            <div class="progress__bar" style="width:80%; height: 10px; background-color: rgb(62, 135, 252); border-radius: 10px;" ></div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress__bar" style="width:80%; height: 15px; background-color: rgb(62, 135, 252); border-radius: 10px;"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
